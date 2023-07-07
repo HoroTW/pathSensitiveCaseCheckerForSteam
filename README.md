@@ -1,13 +1,12 @@
 # Path Case Checker for Steam
 
-This is just a small Python Script which can be used to find issues with steam games on case sensitive filesystems.
+This is just a little Python script that can be used to find issues with Steam games on case sensitive file systems.
 
-I had an issue where my save games were not loaded because the game was looking for a folder with a different case than the one that was created.
-This typically happens when one switches from a case insensitive/insane filesystem like NTFS to a case sensitive filesystem like ext4/btrfs etc.
+I had a problem where my savegames would not load because the game was looking for a folder with a different case than the one it created. This typically happens when you switch from a case-insensitive/insane file system like NTFS to a case-sensitive file system like ext4/btrfs etc.
 
-It is not optimized or anything - it is just a quick and dirty way that is good enough to find the issue and show if it is solved.
+This is not optimised or anything - it is just a quick and dirty way that is good enough to find the issue (and show if it is probably fixed).
 
-You could also use ext4 filesystems with case insensitivity enabled but I don't want that...
+You could also use ext4 filesystems with case insensitivity enabled, but I don't want to...
 
 ## Requirements
 Besides Python3 nothing is needed.
